@@ -1,6 +1,7 @@
 import Image from 'next/image';
-import {BsFillMoonStarsFill} from 'react-icons/bs'
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram, AiFillGithub} from 'react-icons/ai'
+import {BsFillMoonStarsFill} from 'react-icons/bs';
+import {AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram, AiFillGithub} from 'react-icons/ai';
+import Avatar from '../public/avatar.png';
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
           <a className=' text-teal-700 hover:text-teal-800 transition-all duration-400' href='#'><AiFillTwitterCircle/></a>
           <a className=' text-teal-700 hover:text-teal-800 transition-all duration-400' href='#'><AiFillLinkedin/></a>
           <a className=' text-teal-700 hover:text-teal-800 transition-all duration-400' href='#'><AiFillInstagram/></a>
+        </div>
+        <div className='min-w-44 max-w-4xl w-54 bg-teal-500 flex justify-center align-middle rounded-se-full mb-12'>
+          <Image className='w-52 text-center' src={Avatar} alt="avatar" />
         </div>
       </section>
     </main>
