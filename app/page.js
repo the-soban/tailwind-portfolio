@@ -1,6 +1,8 @@
 import Image from 'next/image';
-import {BsFillMoonStarsFill} from 'react-icons/bs';
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram, AiFillGithub} from 'react-icons/ai';
+import { BsFillMoonStarsFill } from 'react-icons/bs';
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram, AiFillGithub } from 'react-icons/ai';
+import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoBootstrap, BiLogoTailwindCss, BiLogoSass, BiLogoGit, BiLogoPhp, BiLogoRedux } from "react-icons/bi";
+import { SiMysql, SiFigma, SiAdobexd } from 'react-icons/si';
 import Avatar from '../public/avatar.png';
 import Design from '../public/design.png';
 import Code from '../public/code.png';
@@ -60,6 +62,7 @@ export default function Home() {
                 Creating elegant designs suited for your needs following core design theory.
               </p>
               <h4 className="py-4 text-md text-teal-600 font-semibold">Design Tools I Use:</h4>
+              <BiLogoHtml5 />
               
               
               
