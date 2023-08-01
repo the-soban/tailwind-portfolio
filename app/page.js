@@ -56,32 +56,25 @@ export default function Home() {
           <div className='font-Poppins text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
             <Image src={Design} className='inline-block' width='94' height='94' alt='design' />
             <h3 className="text-xl font-semibold pt-8 pb-2  ">
-                Web and UI Design
+                Front-end Development
               </h3>
               <p className="text-md py-2">
                 Creating elegant designs suited for your needs following core design theory.
               </p>
-              <h4 className="py-4 text-md text-teal-600 font-semibold">Design Tools I Use:</h4>
-              <BiLogoHtml5 />
-              
-              
-              
-
-          </div>
-
-          <div className='font-Poppins text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-            <Image src={Code} className='inline-block' width='94' height='94' alt='code' />
-            <h3 className="text-xl font-semibold pt-8 pb-2  ">
-                Web Development
-              </h3>
-              <p className="text-md py-2">
-                Do you have an idea for your next great website? Let's make it a reality.
-              </p>
-              <h4 className="py-4 text-md text-teal-600 font-semibold">Development Tools I Use:</h4>
-              <p className="text-gray-700 py-1">Photoshop</p>
-              <p className="text-gray-700 py-1">Illustrator</p>
-              <p className="text-gray-700 py-1">Figma</p>
-              <p className="text-gray-700 py-1">Indesign</p>
+              <h4 className="py-4 text-md text-teal-600 font-semibold">Tools I Use:</h4>
+              <BiLogoHtml5 className='fill-gray-400 text-6xl inline-block hover:fill-orange-600 cursor-pointer transition-all duration-400' />
+              <BiLogoCss3 className='fill-gray-400 text-6xl inline-block hover:fill-blue-600 cursor-pointer transition-all duration-400' />
+              <BiLogoJavascript className='fill-gray-400 text-6xl inline-block hover:fill-yellow-400 cursor-pointer transition-all duration-400' />
+              <BiLogoReact className='fill-gray-400 text-6xl inline-block hover:fill-cyan-400 cursor-pointer transition-all duration-400' />
+              <BiLogoRedux className='fill-gray-400 text-6xl inline-block hover:fill-purple-500 cursor-pointer transition-all duration-400' />
+              <BiLogoGit className='fill-gray-400 text-6xl inline-block hover:fill-orange-600 cursor-pointer transition-all duration-400' />
+              <BiLogoTailwindCss className='fill-gray-400 text-6xl inline-block hover:fill-cyan-500 cursor-pointer transition-all duration-400' />
+              <BiLogoBootstrap className='fill-gray-400 text-6xl inline-block hover:fill-purple-800 cursor-pointer transition-all duration-400' />
+              <BiLogoSass className='fill-gray-400 text-6xl inline-block hover:fill-pink-500 cursor-pointer transition-all duration-400' />
+              <BiLogoPhp className='fill-gray-400 text-6xl inline-block hover:fill-purple-300 cursor-pointer transition-all duration-400' />
+              <SiMysql className='fill-gray-400 text-6xl inline-block hover:fill-blue-800 cursor-pointer transition-all duration-400' />
+              <SiFigma className='fill-gray-400 text-5xl inline-block hover:fill-black cursor-pointer transition-all duration-400' />
+              <SiAdobexd className='fill-gray-400 text-5xl inline-block hover:fill-purple-950 cursor-pointer transition-all duration-400' />
           </div>
         </div>
       </section>
