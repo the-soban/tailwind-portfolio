@@ -16,31 +16,31 @@ export default function Home() {
     <main className='bg-white px-12 md:px-20 lg:px-40'>
       <section className='min-h-screen'>
         <nav className='navbar py-10 mb-12 flex justify-between'>
-          <h1 className='text-xl font-REM font-black tracking-wider'>Soban</h1>
+          <h1 className='text-2xl font-REM font-black tracking-wide md:text-3xl md:tracking-normal'><a href='#'>Soban</a></h1>
           <ul className='flex items-center gap-6'>
             <li className='cursor-pointer text-2xl'><BsFillMoonStarsFill/></li>
-            <li><a className='font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-lg' href='#'>My Resume</a></li>
+            <li><a className='font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-xl' href='#'>My Resume</a></li>
           </ul>
         </nav>
         <div className='text-center p-10'>
-          <h2 className='text-4xl font-Poppins font-extrabold py-2 text-teal-600'>Soban Shafiq</h2>
-          <h3 className='text-xl font-Poppins font-medium py-2'>Web developer and UI designer.</h3>
-          <p className='text-md font-Poppins font-semibold py-4 leading-6 text-gray-700'>Web developer creating cool stuff with cool web tools and technologies. Scroll down to learn more about my work!</p>
+          <h2 className='text-4xl font-Poppins font-extrabold py-2 text-teal-600 md:text-5xl'>Soban Shafiq</h2>
+          <h3 className='text-lg font-Poppins font-medium py-2 md:text-2xl md:pb-2 md:pt-0'>Web developer and UI designer.</h3>
+          <p className='text-md font-Poppins font-semibold py-4 leading-6 text-gray-700 md:text-lg'>Web developer creating cool stuff with cool web tools and technologies. Scroll down to learn more about my work!</p>
         </div>
-        <div className='text-4xl flex justify-center gap-12 py-4'>
-          <a className=' text-teal-700 hover:text-teal-800 transition-all duration-400' href='#'><AiFillGithub/></a>
-          <a className=' text-teal-700 hover:text-teal-800 transition-all duration-400' href='#'><AiFillTwitterCircle/></a>
-          <a className=' text-teal-700 hover:text-teal-800 transition-all duration-400' href='#'><AiFillLinkedin/></a>
-          <a className=' text-teal-700 hover:text-teal-800 transition-all duration-400' href='#'><AiFillInstagram/></a>
+        <div className='text-4xl flex justify-center gap-12 py-4 md:text-5xl'>
+          <a className=' text-teal-600 hover:text-teal-800 transition-all duration-400' href='#'><AiFillGithub/></a>
+          <a className=' text-teal-600 hover:text-teal-800 transition-all duration-400' href='#'><AiFillTwitterCircle/></a>
+          <a className=' text-teal-600 hover:text-teal-800 transition-all duration-400' href='#'><AiFillLinkedin/></a>
+          <a className=' text-teal-600 hover:text-teal-800 transition-all duration-400' href='#'><AiFillInstagram/></a>
         </div>
-        <div className='w-80 h-80 bg-gradient-to-b from-teal-500 to-cyan-200 flex justify-center align-middle rounded-se-full mx-auto mt-12'>
+        <div className='w-80 h-80 bg-gradient-to-b from-teal-500 to-cyan-200 flex justify-center align-middle rounded-se-full mx-auto mt-12 md:rounded-full md:overflow-y-hidden'>
           <Image className='w-52 relative text-center' src={Avatar} alt="avatar" />
         </div>
       </section>
 
       <section className='mt-12'>
         <div className='font-Poppins'>
-          <h3 className='text-3xl font-bold py-1'>Services Offered</h3>
+          <h3 className='text-3xl font-bold py-1'>My Skillset</h3>
           <p className='text-md py-2 leading-8 text-gray-700'>Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
               <span className="text-teal-600"> agencies </span>
@@ -60,10 +60,8 @@ export default function Home() {
                 Creating elegant designs suited for your needs following core design theory.
               </p>
               <h4 className="py-4 text-md text-teal-600 font-semibold">Design Tools I Use:</h4>
-              <p className="text-gray-700 py-1">Photoshop</p>
-              <p className="text-gray-700 py-1">Illustrator</p>
-              <p className="text-gray-700 py-1">Figma</p>
-              <p className="text-gray-700 py-1">Indesign</p>
+              
+
           </div>
 
           <div className='font-Poppins text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
