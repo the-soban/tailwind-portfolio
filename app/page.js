@@ -43,25 +43,24 @@ export default function Home() {
       <section className='mt-12'>
         <div className='font-Poppins'>
           <h3 className='text-3xl font-bold py-1'>My Skillset</h3>
-          <p className='text-md py-2 leading-8 text-gray-700'>Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-600"> agencies </span>
-              consulted for <span className="text-teal-600">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.</p>
-          <p className='text-md py-2 leading-8 text-gray-800'>I offer from a wide range of services, including brand design,
-              programming and teaching.</p>
+          <p className='text-md py-2 leading-8 text-gray-700'>My journey into web development started as a hobby, something I did in my spare time. I used to design website UIs in 
+          Figma and then try to build them as live and interactive sites with HTML and CSS. But, soon I realized I needed to learn and master the more advanced tools and technologies
+          of web development such as <span className='text-teal-600'>Javascript, ReactJS, NextJS, Typescript, PHP, NodeJS, ExpressJS, MongoDB/MySQL</span> and many others. That is 
+          when I started my dive into these tools and developed a passion for web development.</p>
+          <p className='text-md py-2 leading-8 text-gray-800'>I also have a background in working as a freelance <span className='text-teal-600'>Graphic Designer</span>, which has 
+          given me the ability to pay close attention to detail and develop a creative mindset. </p>
         </div>
         <div>
           <div className='font-Poppins text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-            <Image src={Design} className='inline-block' width='94' height='94' alt='design' />
+            <Image src={Design} className='inline-block relative z-10' width='94' height='94' alt='design' />
+            <Image src={Code} className='inline-block relative -ml-10 mt-2 z-0' width='94' height='94' alt='code' />
             <h3 className="text-xl font-semibold pt-8 pb-2  ">
-                Front-end Development
+                Web Design & Development
               </h3>
               <p className="text-md py-2">
-                Creating elegant designs suited for your needs following core design theory.
+                Designing a great website first and then building it up from scratch requires the knowledge and usage of of design principles and theories, expertise in web technologies 
+                and sharp attention to detail. Here's the <span className='text-teal-600'>tech stack (tools and technologies)</span> that I use to build websites and web apps: 
               </p>
-              <h4 className="py-4 text-md text-teal-600 font-semibold">Tools I Use:</h4>
               <BiLogoHtml5 className='fill-gray-400 text-6xl inline-block hover:fill-orange-600 cursor-pointer transition-all duration-400' />
               <BiLogoCss3 className='fill-gray-400 text-6xl inline-block hover:fill-blue-600 cursor-pointer transition-all duration-400' />
               <BiLogoJavascript className='fill-gray-400 text-6xl inline-block hover:fill-yellow-400 cursor-pointer transition-all duration-400' />
@@ -81,7 +80,7 @@ export default function Home() {
 
       <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 ">Portfolio</h3>
+            <h3 className="text-3xl py-1 ">Recent Work</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
