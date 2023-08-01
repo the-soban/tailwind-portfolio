@@ -18,7 +18,7 @@ export default function Home() {
         </nav>
         <div className='text-center p-10'>
           <h2 className='text-5xl font-Poppins font-extrabold py-2 text-teal-600'>Soban Shafiq</h2>
-          <h3 className='text-xl font-Poppins font-medium py-2'>Web developer and designer.</h3>
+          <h3 className='text-xl font-Poppins font-medium py-2'>Web developer and UI designer.</h3>
           <p className='text-md font-Poppins font-semibold py-4 leading-6 text-gray-700'>Web developer creating cool stuff with cool web tools and technologies. Scroll down to learn more about my work!</p>
         </div>
         <div className='text-4xl flex justify-center gap-12 py-4'>
@@ -34,7 +34,7 @@ export default function Home() {
 
       <section className='mt-12 px-12'>
         <div className='font-Poppins'>
-          <h3 className='text-3xl font-bold py-1'>Services I offer</h3>
+          <h3 className='text-3xl font-bold py-1'>Services Offered</h3>
           <p className='text-md py-2 leading-8 text-gray-700'>Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
               <span className="text-teal-600"> agencies </span>
