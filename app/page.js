@@ -151,8 +151,8 @@ export default function Home() {
                             Designing a great website first and then building it
                             up from scratch requires the knowledge and usage of
                             of design principles and theories, expertise in web
-                            technologies and sharp attention to detail. Here's
-                            the{' '}
+                            technologies and sharp attention to detail.
+                            Here&apos;s the{' '}
                             <span className="text-teal-600">
                                 tech stack (tools and technologies)
                             </span>{' '}
@@ -181,7 +181,7 @@ export default function Home() {
                         Recent Work
                     </h3>
                     <p className="text-md font-Poppins py-2 leading-8 text-gray-800">
-                        Here's some{' '}
+                        Here&apos;s some{' '}
                         <span className="text-teal-600">
                             websites and UI Designs
                         </span>{' '}
@@ -274,7 +274,7 @@ export default function Home() {
                         Contact Me
                     </h3>
                     <p className="text-md font-Poppins mb-4 py-2 leading-8 text-gray-800">
-                        Enough about me and my work. Now, let's talk about{' '}
+                        Enough about me and my work. Now, let&apos;s talk about{' '}
                         <span className="text-teal-600">your project</span>.
                     </p>
                     <a
