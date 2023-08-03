@@ -84,10 +84,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-xl object-cover mb-6"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                className="rounded-xl object-cover mb-6 w-full hover:w-[98%] transition-all duration-400 cursor-pointer"
                 src={web1}
                 alt='project'
               />
@@ -96,10 +93,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-xl object-cover mb-6"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                className="rounded-xl object-cover mb-6 w-full hover:w-[98%] transition-all duration-400 cursor-pointer"
                 src={web2}
                 alt='project'
               />
@@ -108,10 +102,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-xl object-cover mb-6"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                className="rounded-xl object-cover mb-6 w-full hover:w-[98%] transition-all duration-400 cursor-pointer"
                 src={web3}
                 alt='project'
               />
@@ -120,10 +111,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-xl object-cover mb-6"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                className="rounded-xl object-cover mb-6 w-full hover:w-[98%] transition-all duration-400 cursor-pointer"
                 src={web4}
                 alt='project'
               />
