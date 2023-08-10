@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { HiMail } from 'react-icons/hi'
+import { HiMoon, HiMail } from 'react-icons/hi'
 import {
     AiFillTwitterCircle,
     AiFillLinkedin,
@@ -27,19 +27,26 @@ import web1 from '../public/web1.png'
 import web2 from '../public/web2.png'
 import web3 from '../public/web3.png'
 import web4 from '../public/web4.png'
+import ThemeBtn from './components/ThemeBtn'
 
 export default function Home() {
     return (
-        <main className="bg-white px-12 md:px-20 lg:px-40">
+        <main className="bg-white dark:bg-slate-900 px-12 md:px-20 lg:px-40">
             <section className="min-h-screen">
                 <nav className="navbar py-10 mb-12 flex justify-between">
-                    <h1 className="text-2xl font-REM font-black tracking-wide md:text-3xl md:tracking-wide">
+                    <h1 className="text-2xl dark:text-teal-500 font-REM font-black tracking-wide md:text-3xl md:tracking-wide">
                         <a href="#">SOBAN</a>
                     </h1>
                     <ul className="flex items-center gap-6">
                         <li className="cursor-pointer text-2xl">
+                            <a href="#">
+                                {/* <HiMoon className="text-black" /> */}
+                                <ThemeBtn className="text-black" />
+                            </a>
+                        </li>
+                        <li className="cursor-pointer text-2xl">
                             <a href="mailto:sobanshafeq123@gmail.com">
-                                <HiMail />
+                                <HiMail className="text-black" />
                             </a>
                         </li>
                         <li>
