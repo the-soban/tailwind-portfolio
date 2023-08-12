@@ -10,7 +10,7 @@ const ThemeBtn = () => {
     const [mounted, setMounted] = useState(false)
     useState(() => setMounted(true), [])
 
-    if(!mounted){
+    if (!mounted) {
         return null
     }
 
@@ -19,7 +19,7 @@ const ThemeBtn = () => {
             className="text-black"
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
         >
-            {theme === 'dark' ? 'light' : 'dark'}
+            {theme === 'dark' ? <HiSun /> : <HiMoon />}
         </p>
     )
 }
