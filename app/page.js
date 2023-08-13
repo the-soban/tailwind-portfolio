@@ -68,10 +68,10 @@ export default function Home() {
                     <h3 className="text-lg font-Poppins font-medium py-2 md:text-2xl md:pb-2 md:pt-0">
                         Web developer and UI designer.
                     </h3>
-                    <p className="text-md font-Poppins font-semibold py-4 leading-6 text-gray-700 md:text-lg">
+                    <p className="text-md font-Poppins font-semibold py-4 leading-6 text-gray-700 md:text-lg dark:text-gray-200">
                         Web developer creating cool stuff with cool web tools
-                        and technologies. Scroll down to learn more about my
-                        work!
+                        and technologies. <br />
+                        Scroll down to learn more about my work!
                     </p>
                 </div>
                 <div className="text-4xl flex justify-center gap-12 py-4 md:text-5xl">
@@ -121,18 +121,20 @@ export default function Home() {
                         and interactive sites with HTML and CSS. But, soon I
                         realized I needed to learn and master the more advanced
                         tools and technologies of web development such as{' '}
-                        <span className="text-teal-600">
+                        <span className="text-teal-600 dark:text-teal-400">
                             Javascript, ReactJS, NextJS, Typescript, PHP,
                             NodeJS, ExpressJS, MongoDB/MySQL
                         </span>{' '}
                         and many others. That is when I started my dive into
                         these tools and developed a passion for web development.
                     </p>
-                    <p className="text-md font-Poppins py-2 leading-8 text-gray-800">
+                    <p className="text-md font-Poppins py-2 leading-8 text-gray-800 dark:text-white">
                         I also have a background in working as a freelance{' '}
-                        <span className="text-teal-600">Graphic Designer</span>,
-                        which has given me the ability to pay close attention to
-                        detail and develop a creative mindset.{' '}
+                        <span className="text-teal-600 dark:text-teal-400">
+                            Graphic Designer
+                        </span>
+                        , which has given me the ability to pay close attention
+                        to detail and develop a creative mindset.{' '}
                     </p>
                 </div>
                 <div>
