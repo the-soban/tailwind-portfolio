@@ -40,13 +40,12 @@ export default function Home() {
                     <ul className="flex items-center gap-6">
                         <li className="cursor-pointer text-2xl">
                             <a href="#">
-                                {/* <HiMoon className="text-black" /> */}
-                                <ThemeBtn className="text-black" />
+                                <ThemeBtn />
                             </a>
                         </li>
                         <li className="cursor-pointer text-2xl">
                             <a href="mailto:sobanshafeq123@gmail.com">
-                                <HiMail className="text-black" />
+                                <HiMail className="text-black dark:text-white" />
                             </a>
                         </li>
                         <li>
@@ -138,7 +137,7 @@ export default function Home() {
                     </p>
                 </div>
                 <div>
-                    <div className="font-Poppins text-center shadow-md hover:shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 transition-all duration-400">
+                    <div className="font-Poppins text-center shadow-md hover:shadow-lg p-10 rounded-xl my-10 bg-gray-100 dark:bg-slate-800 flex-1 transition-all duration-400">
                         <Image
                             src={Design}
                             className="inline-block relative z-10"
@@ -162,7 +161,7 @@ export default function Home() {
                             of design principles and theories, expertise in web
                             technologies and sharp attention to detail.
                             Here&apos;s the{' '}
-                            <span className="text-teal-600">
+                            <span className="text-teal-600 dark:text-teal-400">
                                 tech stack (tools and technologies)
                             </span>{' '}
                             that I use to build websites and web apps:
@@ -189,9 +188,9 @@ export default function Home() {
                     <h3 className="text-3xl font-Poppins font-bold py-1 ">
                         Recent Work
                     </h3>
-                    <p className="text-md font-Poppins py-2 leading-8 text-gray-800">
+                    <p className="text-md font-Poppins py-2 leading-8 text-gray-800 dark:text-white">
                         Here&apos;s some{' '}
-                        <span className="text-teal-600">
+                        <span className="text-teal-600 dark:text-teal-400">
                             websites and UI Designs
                         </span>{' '}
                         I have worked on recently:{' '}
@@ -282,9 +281,12 @@ export default function Home() {
                     <h3 className="text-3xl font-Poppins font-bold py-1 ">
                         Contact Me
                     </h3>
-                    <p className="text-md font-Poppins mb-4 py-2 leading-8 text-gray-800">
+                    <p className="text-md font-Poppins mb-4 py-2 leading-8 text-gray-800 dark:text-white">
                         Enough about me and my work. Now, let&apos;s talk about{' '}
-                        <span className="text-teal-600">your project</span>.
+                        <span className="text-teal-600 dark:text-teal-400">
+                            your project
+                        </span>
+                        .
                     </p>
                     <a
                         className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl"
@@ -296,7 +298,7 @@ export default function Home() {
             </section>
 
             <section className="flex justify-center align-middle">
-                <span className="text-xs font-Poppins text-gray-600 text-center mt-12 mb-4 mx-auto inline-block">
+                <span className="text-xs font-Poppins text-gray-600 dark:text-white text-center mt-12 mb-4 mx-auto inline-block">
                     Copyright © Soban Shafiq - 2023
                 </span>
             </section>
