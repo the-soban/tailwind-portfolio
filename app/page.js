@@ -99,7 +99,7 @@ export default function Home() {
                         <AiFillInstagram />
                     </a>
                 </div>
-                <div className="w-80 h-80 bg-gradient-to-b from-teal-500 to-cyan-200 flex justify-center align-middle rounded-se-full mx-auto mt-12 md:rounded-full md:overflow-y-hidden">
+                <div className="w-60 h-80 sm:w-80 sm:h-80 bg-gradient-to-b from-teal-500 to-cyan-200 flex justify-center align-middle rounded-se-full mx-auto mt-12 md:rounded-full md:overflow-y-hidden">
                     <Image
                         className="w-52 relative text-center"
                         src={Avatar}
