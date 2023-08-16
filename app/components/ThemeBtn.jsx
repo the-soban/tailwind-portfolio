@@ -20,9 +20,9 @@ const ThemeBtn = () => {
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
         >
             {theme === 'dark' ? (
-                <HiSun className="text-black dark:text-yellow-500" />
+                <HiSun className="text-black dark:text-yellow-500 text-lg" />
             ) : (
-                <HiMoon className="text-black dark:text-yellow-500" />
+                <HiMoon className="text-black dark:text-yellow-500 text-lg" />
             )}
         </p>
     )

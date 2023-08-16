@@ -31,13 +31,13 @@ import ThemeBtn from './components/ThemeBtn'
 
 export default function Home() {
     return (
-        <main className="bg-white dark:bg-slate-900 px-12 md:px-20 lg:px-40">
+        <main className="bg-white dark:bg-slate-900 px-4 sm:px-12 md:px-20 lg:px-40">
             <section className="min-h-screen">
                 <nav className="navbar py-10 mb-12 flex justify-between align-middle">
-                    <h1 className="text-2xl dark:text-white font-REM font-black tracking-wide md:text-3xl md:tracking-wide sm:text-xl">
+                    <h1 className="text-lg dark:text-white font-REM font-black tracking-wide md:text-3xl md:tracking-wide sm:text-xl">
                         <a href="#">SOBAN</a>
                     </h1>
-                    <ul className="flex items-center gap-6">
+                    <ul className="flex items-center gap-4 whitespace-nowrap">
                         <li className="cursor-pointer text-2xl sm:text-lg">
                             <a href="#">
                                 <ThemeBtn />
@@ -45,12 +45,12 @@ export default function Home() {
                         </li>
                         <li className="cursor-pointer text-2xl sm:text-lg">
                             <a href="mailto:sobanshafeq123@gmail.com">
-                                <HiMail className="text-black dark:text-white" />
+                                <HiMail className="text-black dark:text-white text-lg sm:text-lg" />
                             </a>
                         </li>
                         <li>
                             <a
-                                className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-xl sm:text-sm"
+                                className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-xl text-xs sm:text-sm"
                                 target="_blank"
                                 href="/resume.pdf"
                                 rel="noopener noreferrer"
@@ -73,7 +73,7 @@ export default function Home() {
                         Scroll down to learn more about my work!
                     </p>
                 </div>
-                <div className="text-4xl flex justify-center gap-12 py-4 md:text-5xl">
+                <div className="text-4xl flex justify-center gap-8 sm:gap-12 py-4 md:text-5xl">
                     <a
                         className=" text-teal-600 hover:text-teal-800 transition-all duration-400"
                         href="#"
@@ -113,7 +113,7 @@ export default function Home() {
                     <h3 className="text-3xl font-Poppins font-bold py-1">
                         My Skillset
                     </h3>
-                    <p className="text-md font-Poppins py-2 leading-8 text-gray-700 dark:text-white">
+                    <p className="text-sm sm:text-md font-Poppins py-2 leading-8 text-gray-700 dark:text-white">
                         My journey into web development started as a hobby,
                         something I did in my spare time. I used to design
                         website UIs in Figma and then try to build them as live
@@ -127,7 +127,7 @@ export default function Home() {
                         and many others. That is when I started my dive into
                         these tools and developed a passion for web development.
                     </p>
-                    <p className="text-md font-Poppins py-2 leading-8 text-gray-800 dark:text-white">
+                    <p className="text-sm sm:text-md font-Poppins py-2 leading-8 text-gray-800 dark:text-white">
                         I also have a background in working as a freelance{' '}
                         <span className="text-teal-600 dark:text-teal-400">
                             Graphic Designer
@@ -155,7 +155,7 @@ export default function Home() {
                         <h3 className="text-xl font-Poppins font-semibold pt-8 pb-2  ">
                             Web Design & Development
                         </h3>
-                        <p className="text-md font-Poppins py-2">
+                        <p className="text-sm sm:text-md font-Poppins py-2">
                             Designing a great website first and then building it
                             up from scratch requires the knowledge and usage of
                             of design principles and theories, expertise in web
@@ -188,7 +188,7 @@ export default function Home() {
                     <h3 className="text-3xl font-Poppins font-bold py-1 ">
                         Recent Work
                     </h3>
-                    <p className="text-md font-Poppins py-2 leading-8 text-gray-800 dark:text-white">
+                    <p className="text-sm sm:text-md font-Poppins py-2 leading-8 text-gray-800 dark:text-white">
                         Here&apos;s some{' '}
                         <span className="text-teal-600 dark:text-teal-400">
                             websites and UI Designs
@@ -204,13 +204,13 @@ export default function Home() {
                             alt="project"
                         />
                         <a
-                            className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl md:text-xs lg:text-base"
+                            className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
                             href="#"
                         >
                             Github Repo
                         </a>
                         <a
-                            className="font-Poppins text-white bg-gradient-to-r from-teal-500 to-cyan-500 px-4 py-2 mx-4 rounded-xl md:text-xs lg:text-base"
+                            className="font-Poppins text-white bg-gradient-to-r from-teal-500 to-cyan-500 px-4 py-2 mx-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
                             href="#"
                         >
                             Live Demo
@@ -223,13 +223,13 @@ export default function Home() {
                             alt="project"
                         />
                         <a
-                            className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl md:text-xs lg:text-base"
+                            className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
                             href="#"
                         >
                             Github Repo
                         </a>
                         <a
-                            className="font-Poppins text-white bg-gradient-to-r from-teal-500 to-cyan-500 px-4 py-2 mx-4 rounded-xl md:text-xs lg:text-base"
+                            className="font-Poppins text-white bg-gradient-to-r from-teal-500 to-cyan-500 px-4 py-2 mx-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
                             href="#"
                         >
                             Live Demo
@@ -242,13 +242,13 @@ export default function Home() {
                             alt="project"
                         />
                         <a
-                            className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl md:text-xs lg:text-base"
+                            className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
                             href="#"
                         >
                             Github Repo
                         </a>
                         <a
-                            className="font-Poppins text-white bg-gradient-to-r from-teal-500 to-cyan-500 px-4 py-2 mx-4 rounded-xl md:text-xs lg:text-base"
+                            className="font-Poppins text-white bg-gradient-to-r from-teal-500 to-cyan-500 px-4 py-2 mx-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
                             href="#"
                         >
                             Live Demo
@@ -261,13 +261,13 @@ export default function Home() {
                             alt="project"
                         />
                         <a
-                            className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl md:text-xs lg:text-base"
+                            className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
                             href="#"
                         >
                             Github Repo
                         </a>
                         <a
-                            className="font-Poppins text-white bg-gradient-to-r from-teal-500 to-cyan-500 px-4 py-2 mx-4 rounded-xl md:text-xs lg:text-base"
+                            className="font-Poppins text-white bg-gradient-to-r from-teal-500 to-cyan-500 px-4 py-2 mx-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
                             href="#"
                         >
                             Live Demo
@@ -281,7 +281,7 @@ export default function Home() {
                     <h3 className="text-3xl font-Poppins font-bold py-1 ">
                         Contact Me
                     </h3>
-                    <p className="text-md font-Poppins mb-4 py-2 leading-8 text-gray-800 dark:text-white">
+                    <p className="text-sm sm:text-md font-Poppins mb-4 py-2 leading-8 text-gray-800 dark:text-white">
                         Enough about me and my work. Now, let&apos;s talk about{' '}
                         <span className="text-teal-600 dark:text-teal-400">
                             your project
@@ -289,7 +289,7 @@ export default function Home() {
                         .
                     </p>
                     <a
-                        className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl"
+                        className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl text-xs sm:text-md md:text-lg"
                         href="mailto:sobanshafeq123@gmail.com"
                     >
                         Send me an Email
