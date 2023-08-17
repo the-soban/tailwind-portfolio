@@ -208,7 +208,8 @@ export default function Home() {
                         />
                         <a
                             className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
-                            href="#"
+                            target="_blank"
+                            href="https://github.com/the-soban?tab=repositories"
                         >
                             Github Repo
                         </a>
@@ -227,13 +228,15 @@ export default function Home() {
                         />
                         <a
                             className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
-                            href="#"
+                            target="_blank"
+                            href="https://github.com/the-soban?tab=repositories"
                         >
                             Github Repo
                         </a>
                         <a
                             className="font-Poppins text-white bg-gradient-to-r from-teal-500 to-cyan-500 px-4 py-2 mx-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
-                            href="#"
+                            target="_blank"
+                            href="https://github.com/the-soban?tab=repositories"
                         >
                             Live Demo
                         </a>
@@ -246,13 +249,15 @@ export default function Home() {
                         />
                         <a
                             className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
-                            href="#"
+                            target="_blank"
+                            href="https://github.com/the-soban?tab=repositories"
                         >
                             Github Repo
                         </a>
                         <a
                             className="font-Poppins text-white bg-gradient-to-r from-teal-500 to-cyan-500 px-4 py-2 mx-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
-                            href="#"
+                            target="_blank"
+                            href="https://github.com/the-soban?tab=repositories"
                         >
                             Live Demo
                         </a>
@@ -265,7 +270,8 @@ export default function Home() {
                         />
                         <a
                             className="font-Poppins text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 my-4 rounded-xl text-xs sm:text-md md:text-lg lg:text-base"
-                            href="#"
+                            target="_blank"
+                            href="https://github.com/the-soban?tab=repositories"
                         >
                             Github Repo
                         </a>
