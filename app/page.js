@@ -75,25 +75,29 @@ export default function Home() {
                 <div className="text-4xl flex justify-center gap-8 sm:gap-12 py-4 md:text-5xl">
                     <a
                         className=" text-teal-600 hover:text-teal-800 transition-all duration-400"
-                        href="#"
+                        target="_blank"
+                        href="https://github.com/the-soban"
                     >
                         <AiFillGithub />
                     </a>
                     <a
                         className=" text-teal-600 hover:text-teal-800 transition-all duration-400"
-                        href="#"
+                        target="_blank"
+                        href="https://twitter.com/the_soban3"
                     >
                         <AiFillTwitterCircle />
                     </a>
                     <a
                         className=" text-teal-600 hover:text-teal-800 transition-all duration-400"
-                        href="#"
+                        target="_blank"
+                        href="https://linkedin.com/in/sobans"
                     >
                         <AiFillLinkedin />
                     </a>
                     <a
                         className=" text-teal-600 hover:text-teal-800 transition-all duration-400"
-                        href="#"
+                        target="_blank"
+                        href="https://instagram.com/the.soban"
                     >
                         <AiFillInstagram />
                     </a>
