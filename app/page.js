@@ -1,6 +1,5 @@
-import Link from 'next/link'
 import Image from 'next/image'
-import { HiMoon, HiMail } from 'react-icons/hi'
+import { HiMail } from 'react-icons/hi'
 import {
     AiFillTwitterCircle,
     AiFillLinkedin,
